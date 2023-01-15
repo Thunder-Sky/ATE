@@ -6,5 +6,8 @@
   "content_scripts": [{
     "matches": ["https://atcoder.jp/users/*/history"],
     "js": ["js/color.js"]
+   },{
+    "matches": ["https://atcoder.jp/*"],
+    "css": ["css/subheader.css"]
    }]
 }
