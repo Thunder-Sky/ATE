@@ -1,0 +1,10 @@
+{
+  "name": "ATE(AtCoder Extensions)",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "この拡張機能を使えばAtCoderを便利に使えます。",
+  "content_scripts": [{
+    "matches": ["https://atcoder.jp/users/*/history"],
+    "js": ["js/color.js"]
+   }]
+}
